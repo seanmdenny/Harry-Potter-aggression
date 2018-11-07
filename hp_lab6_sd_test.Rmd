@@ -1,0 +1,22 @@
+---
+title: "hp_lab_6"
+author: "Sean Denny"
+date: "11/7/2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Load packages and read in data
+
+```{r, message = FALSE}
+
+library(tidyverse)
+hp_data <- read_csv("harry_potter_aggression_full.csv")
+
+```
+
